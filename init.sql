@@ -38,3 +38,5 @@ CREATE TABLE IF NOT EXISTS adoption(
     animaltype_id INT REFERENCES animaltypedim (animaltype_id),
     Breed_id INT REFERENCES breeddim (breed_id)
 );
+
+
